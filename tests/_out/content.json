@@ -1,0 +1,48 @@
+{
+ "docx": "C:\\Users\\Administrator\\.claude\\skills\\test-case-gen\\tests\\_out\\sample_req.docx",
+ "out_dir": "C:\\Users\\Administrator\\.claude\\skills\\test-case-gen\\tests\\_out",
+ "paragraphs": [
+  {
+   "style": "Heading 1",
+   "text": "示例登录需求"
+  },
+  {
+   "style": "Normal",
+   "text": "用户使用手机号和密码登录系统。"
+  },
+  {
+   "style": "Normal",
+   "text": "密码连续错误5次后账号锁定30分钟。"
+  },
+  {
+   "style": "Normal",
+   "text": "支持短信验证码登录方式。"
+  }
+ ],
+ "tables": [
+  [
+   [
+    "登录方式",
+    "说明",
+    "备注"
+   ],
+   [
+    "密码登录",
+    "手机号+密码",
+    "默认"
+   ],
+   [
+    "验证码登录",
+    "手机号+短信验证码",
+    "60秒有效期"
+   ]
+  ]
+ ],
+ "textboxes": [
+  "验收标准：登录耗时小于2秒",
+  "验收标准二：验证码发送耗时小于10秒"
+ ],
+ "images": [
+  "C:\\Users\\Administrator\\.claude\\skills\\test-case-gen\\tests\\_out\\image1.png"
+ ]
+}
